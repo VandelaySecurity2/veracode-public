@@ -9,12 +9,6 @@
 	<packaging>war</packaging>
 
 
-	<!-- Component Version Properties -->
-	<properties>
-		<maven.compiler.source>19</maven.compiler.source>
-		<maven.compiler.target>19</maven.compiler.target>
-	</properties>
-
 	<!-- Dependencies begin here -->
 	<dependencies>
 
