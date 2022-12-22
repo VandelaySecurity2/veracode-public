@@ -7,6 +7,11 @@
 	<name>veracode-public</name>
 	<url>https://github.com/VandelaySecurity2/veracode-public</url>
 	<packaging>war</packaging>
+	
+	<properties>
+    		<maven.compiler.source>1.6</maven.compiler.source>
+    		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
 
 
 	<!-- Dependencies begin here -->
