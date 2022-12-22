@@ -8,12 +8,6 @@
 	<url>https://github.com/VandelaySecurity2/veracode-public</url>
 	<packaging>war</packaging>
 
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.1.RELEASE</version>
-		<relativePath/>
-	</parent>
 
 	<!-- Component Version Properties -->
 	<properties>
@@ -46,10 +40,6 @@
 	<build>
 		<finalName>veracode-public</finalName>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
