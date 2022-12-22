@@ -47,7 +47,7 @@ jobs:
 
     - uses: actions/setup-java@v1
       with:
-        java-version: 19
+        java-version: 8
     - run: java -jar pipeline-scan.jar --veracode_api_id "${{secrets.VERACODE_API_KEY_ID}}" --veracode_api_key "${{secrets.VERACODE_API_KEY_SECRET}}" --fail_on_severity="Very High, High" --file app/target/veracode-public.war
       continue-on-error: true
     
