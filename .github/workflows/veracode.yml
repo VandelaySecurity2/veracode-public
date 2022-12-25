@@ -80,3 +80,4 @@ jobs:
         vid: ${{secrets.VERACODE_API_KEY_ID}}
         # vkey
         vkey: ${{secrets.VERACODE_API_KEY_SECRET}}
+        scantimeout: 10
