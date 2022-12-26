@@ -81,3 +81,4 @@ jobs:
         # vkey
         vkey: ${{secrets.VERACODE_API_KEY_SECRET}}
         scantimeout: 10
+        debug: true
